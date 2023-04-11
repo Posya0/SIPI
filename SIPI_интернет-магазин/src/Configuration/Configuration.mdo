@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34e87fba-3054-46bc-9323-88f12e1e9dcf">
+  <name>ИнтернетМагазин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интернет магазин</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="07b272e6-7cc0-4a05-b30c-0639df05199d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="795e0145-7d35-40dc-803c-dbb94f0b6998"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="71933995-e1d8-4b79-a969-0cb5a6adc092"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="fbd97735-2ed6-4c88-b987-b1c2aa71744f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="26a21b53-c8e3-4d74-a0b4-177a2ee63916"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6a3b612c-4ef4-4c33-bd73-b8e247d0f36e"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2df9fe6d-1650-4fd2-984d-65a2b605ac35"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="b9582e8a-5d64-4583-b101-f12136a93e8b">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <sessionParameters>SessionParameter.ТекущийСотрудник</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.БазовыеПрава</roles>
+  <roles>Role.Закупщик</roles>
+  <roles>Role.Кассир</roles>
+  <definedTypes>DefinedType.ПредметПроцесса</definedTypes>
+  <constants>Constant.Склад</constants>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ДолжностнаяСтруктура</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Размеры</catalogs>
+  <catalogs>Catalog.Роли</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.РеализацияТовары</documents>
+  <enums>Enum.ФизЮр</enums>
+  <reports>Report.ОтчетПоПрадажам</reports>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <informationRegisters>InformationRegister.ИсполнителиРолей</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
+  <businessProcesses>BusinessProcess.Поручение</businessProcesses>
+  <tasks>Task.Задача</tasks>
+</mdclass:Configuration>
